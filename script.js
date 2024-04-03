@@ -6,22 +6,26 @@ const n4 = 5;
 // Check if all numbers are divisible by 5. Cache the result in a variable.
 const allDivisibleBy5 = n1 % 5 === 0 && n2 % 5 === 0 && n3 % 5 === 0 && n4 % 5 === 0;
 console.log('All numbers can be devided by 5 is ' + allDivisibleBy5); //true
+console.log("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 
 // Check if the first number is larger than the last. Cache the result in a variable.
 const biggetNum = n1>n4; //true
 console.log("Is the first number larger than the last? " + biggetNum);
+console.log("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 
 // Subtract the first number from the second number.
 // Multiply the result by the third number.
 // Find the remainder of dividing the result by the fourth number.
 const newNum = ((n2-n1) *n3) % n4; // =0
 console.log(newNum);
+console.log("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 
 // Change the way that isOver25 calculates so that we do not need to use the NOT operator (!) in other logic comparisons. Rename the variable as appropriate.
 const isAnyOver25 = n1 > 25 || n2 > 25 || n3 > 25 || n4 > 25; // non is over - false
 console.log("Is any number over 25?", isAnyOver25);
 
 // ================== PART 2=======================
+console.log("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 
 const totalDist = 1500;
 
@@ -60,8 +64,7 @@ console.log("Total gallons needed for driving 55 mi/h: " + gallonsNeeded(55));
 console.log("Total gallons needed for driving 55 mi/h: " + gallonsNeeded(60));
 console.log("Total gallons needed for driving 55 mi/h: " + gallonsNeeded(75));
 
-
-
+console.log("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 
 // Will your budget be enough to cover the fuel expense?
 
@@ -81,8 +84,7 @@ console.log(isBuggetEnough(55));
 console.log(isBuggetEnough(60));
 console.log(isBuggetEnough(75));
 
-
-
+console.log("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 
 // How long will the trip take, in hours?
 
@@ -102,8 +104,7 @@ console.log(totalHoursOfTrip(55));
 console.log(totalHoursOfTrip(60));
 console.log(totalHoursOfTrip(75));
 
-
-
+console.log("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 
 // Compare the results when traveling at an average of 55, 60, and 75 miles per hour. Which makes the most sense for the trip?
 
@@ -118,3 +119,5 @@ In addition, it will take ${totalHoursOfTrip(speed2)} hours to arrive at the des
 console.log(`If we travel at ${speed3} miles per hour, 
 then it is ${isBuggetEnough(speed3)} that we are traveling over the budget limit. 
 In addition, it will take ${totalHoursOfTrip(speed3)} hours to arrive at the destination.`);
+
+console.log("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
